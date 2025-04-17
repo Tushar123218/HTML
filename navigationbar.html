@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigattion bar </title>
+    <style>
+        .navigation-bar{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+        .list{
+            list-style-type: none;
+            display: flex;
+            gap: 2rem;
+            margin-right: 15px;
+        }
+        #logo{
+            position: absolute;
+            left: 35px;
+            width: 100px;
+            height: 75px;
+            border-radius: 10px;
+            
+        }
+        li a{
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation-bar">
+        <img src="netflix2.webp" alt="Netflix" id="logo">
+        <ul class="list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/definitionlist.html#about">About Us</a></li>
+        </ul>
+    </div>
+</body>
+</html> 
